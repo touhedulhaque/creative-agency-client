@@ -1,0 +1,25 @@
+.btn-brand{
+  background-color: black;
+  border-color: transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.shared-container{
+  background-color: #FBD062;
+  background-size: cover;
+  background-position: center center;
+  }
+
+  .card-style{
+    border: 0px solid gray;
+    box-shadow: 5px 5px 20px gray;
+}
+.shared-bg-color{
+  background-color: #f4f7fc;
+background-size: cover;
+background-position: center center;
+}
