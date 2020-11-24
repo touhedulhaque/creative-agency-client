@@ -33,7 +33,7 @@ const Services = () => {
     return (
         <section className="services-container mt-5 mb-1 p-1">
             <div className="text-center">
-                <h3>Provide awesome <span style={{color: '#7ab259'}}>services</span> </h3>
+                <h3>Provide awesome <span style={{ color: '#7ab259' }}>services</span> </h3>
             </div>
             <div className="d-flex justify-content-around">
                 <div className="w-75 row mt-5 pt-5">

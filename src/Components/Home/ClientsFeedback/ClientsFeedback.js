@@ -13,13 +13,13 @@ const ClientsFeedback = () => {
     }, [])
     return (
         <section className="feedback-container mt-5 mb-5 p-1">
-            <h3 className="text-center">Clients <span style={{color: '#7ab259'}}>Feedback</span> </h3>
+            <h3 className="text-center">Clients <span style={{ color: '#7ab259' }}>Feedback</span> </h3>
             <div className="container">
-            <div className="row mt-5 pt-5">
-                {
-                    feeds.map(feed => <FeedbackCard feed = {feed} key={feed.id}></FeedbackCard>)
-                }
-            </div>
+                <div className="row mt-5 pt-5">
+                    {
+                        feeds.map(feed => <FeedbackCard feed={feed} key={feed.id}></FeedbackCard>)
+                    }
+                </div>
             </div>
 
         </section>

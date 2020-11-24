@@ -15,7 +15,7 @@ const AllOrdersList = () => {
         <div className="text-center">
             <h3><u>Total Orders (Admin): {orders.length}</u></h3>
             {
-                <OrdersAll orders={orders}></OrdersAll> 
+                <OrdersAll orders={orders}></OrdersAll>
             }
         </div>
     );

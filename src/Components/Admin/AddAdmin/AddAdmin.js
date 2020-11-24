@@ -38,10 +38,10 @@ const AddAdmin = () => {
                     <div style={{ backgroundColor: '#f4f7fc' }}>
                         <form style={{ backgroundColor: '#f4f7fc' }} className="p-5 card " onSubmit={handleSubmit(onSubmit)}>
                             <div className="form-group">
-                                <input type="email"  ref={register({ required: true })} name="email" placeholder="john@gmail.com" className="form-control" />
+                                <input type="email" ref={register({ required: true })} name="email" placeholder="john@gmail.com" className="form-control" />
                                 {errors.email && <span className="text-danger">This field is required</span>}
                             </div>
-                            
+
                             <br />
                             <div className="form-group text-left">
                                 <button type="submit" className="btn btn-brand">Send</button>

@@ -38,7 +38,7 @@ const AddService = () => {
                     <div style={{ backgroundColor: '#f4f7fc' }}>
                         <form style={{ backgroundColor: '#f4f7fc' }} className="p-5 card " onSubmit={handleSubmit(onSubmit)}>
                             <div className="form-group">
-                                <input type="text"  ref={register({ required: true })} name="serviceName" placeholder="Service Name" className="form-control" />
+                                <input type="text" ref={register({ required: true })} name="serviceName" placeholder="Service Name" className="form-control" />
                                 {errors.serviceName && <span className="text-danger">This field is required</span>}
                             </div>
                             <div className="form-group">
